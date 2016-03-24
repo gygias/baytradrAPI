@@ -14,6 +14,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 #if defined(BTWIN32)
 # ifdef LIBBT_EXPORTS

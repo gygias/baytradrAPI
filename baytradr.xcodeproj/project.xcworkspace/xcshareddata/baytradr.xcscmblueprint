@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "28EE2B9F7FC1C5AAD3D6C0B9E2E095C246B7B102",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "28EE2B9F7FC1C5AAD3D6C0B9E2E095C246B7B102" : 0,
+    "B6C379C201DF4B6EB8A2FCC9B86A9388107CCFC2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3A3DCC56-91CB-41D9-B22D-F94CF689E4D1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "28EE2B9F7FC1C5AAD3D6C0B9E2E095C246B7B102" : "baytradrAPI\/",
+    "B6C379C201DF4B6EB8A2FCC9B86A9388107CCFC2" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "baytradr",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "baytradr.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gygias\/baytradrAPI.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "28EE2B9F7FC1C5AAD3D6C0B9E2E095C246B7B102"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/www.github.com\/gygias\/yammer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B6C379C201DF4B6EB8A2FCC9B86A9388107CCFC2"
+    }
+  ]
+}

@@ -27,6 +27,7 @@ extern BTTypeID __BTSessionTypeID;
 extern BTTypeID __BTTransactionTypeID;
 extern BTTypeID __BTPropertyTypeID;
 extern BTTypeID __BTPropertyListTypeID;
+extern BTTypeID __BTStudyTypeID;
 
 BT_EXTERN_C_POP
 
