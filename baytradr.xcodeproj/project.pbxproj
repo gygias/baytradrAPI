@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63F8A19C1CA4586700D48581 /* BTSession.c in Sources */ = {isa = PBXBuildFile; fileRef = 63F8A19B1CA4586700D48581 /* BTSession.c */; };
+		63F8A1A01CA4592200D48581 /* BTTransaction.c in Sources */ = {isa = PBXBuildFile; fileRef = 63F8A19F1CA4592200D48581 /* BTTransaction.c */; };
+		63F8A1A31CA45A1F00D48581 /* BTUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 63F8A1A21CA45A1F00D48581 /* BTUtilities.c */; };
+		63F8A1A71CA461B800D48581 /* BTPrivate.c in Sources */ = {isa = PBXBuildFile; fileRef = 63F8A1A61CA461B800D48581 /* BTPrivate.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63F8A1931CA457E800D48581 /* libBaytradr.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libBaytradr.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F8A19B1CA4586700D48581 /* BTSession.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = BTSession.c; path = src/BTSession.c; sourceTree = "<group>"; };
+		63F8A19D1CA4587A00D48581 /* BTSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BTSession.h; path = baytradr/BTSession.h; sourceTree = "<group>"; };
+		63F8A19E1CA4591600D48581 /* BTTransaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BTTransaction.h; path = baytradr/BTTransaction.h; sourceTree = "<group>"; };
+		63F8A19F1CA4592200D48581 /* BTTransaction.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = BTTransaction.c; path = src/BTTransaction.c; sourceTree = "<group>"; };
+		63F8A1A11CA45A1000D48581 /* BTUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BTUtilities.h; path = baytradr/BTUtilities.h; sourceTree = "<group>"; };
+		63F8A1A21CA45A1F00D48581 /* BTUtilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = BTUtilities.c; path = src/BTUtilities.c; sourceTree = "<group>"; };
+		63F8A1A41CA45A3000D48581 /* Baytradr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Baytradr.h; path = baytradr/Baytradr.h; sourceTree = "<group>"; };
+		63F8A1A51CA4611300D48581 /* BTPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BTPrivate.h; path = private/BTPrivate.h; sourceTree = "<group>"; };
+		63F8A1A61CA461B800D48581 /* BTPrivate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = BTPrivate.c; path = src/BTPrivate.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63F8A1901CA457E800D48581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63F8A1881CA4579900D48581 = {
+			isa = PBXGroup;
+			children = (
+				63F8A1991CA4582F00D48581 /* baytradr */,
+				63F8A19A1CA4583500D48581 /* private */,
+				63F8A1981CA4582700D48581 /* src */,
+				63F8A1941CA457E800D48581 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63F8A1941CA457E800D48581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63F8A1931CA457E800D48581 /* libBaytradr.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63F8A1981CA4582700D48581 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				63F8A1A61CA461B800D48581 /* BTPrivate.c */,
+				63F8A19B1CA4586700D48581 /* BTSession.c */,
+				63F8A19F1CA4592200D48581 /* BTTransaction.c */,
+				63F8A1A21CA45A1F00D48581 /* BTUtilities.c */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		63F8A1991CA4582F00D48581 /* baytradr */ = {
+			isa = PBXGroup;
+			children = (
+				63F8A1A41CA45A3000D48581 /* Baytradr.h */,
+				63F8A19D1CA4587A00D48581 /* BTSession.h */,
+				63F8A19E1CA4591600D48581 /* BTTransaction.h */,
+				63F8A1A11CA45A1000D48581 /* BTUtilities.h */,
+			);
+			name = baytradr;
+			sourceTree = "<group>";
+		};
+		63F8A19A1CA4583500D48581 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				63F8A1A51CA4611300D48581 /* BTPrivate.h */,
+			);
+			name = private;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		63F8A1911CA457E800D48581 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		63F8A1921CA457E800D48581 /* Baytradr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F8A1951CA457E800D48581 /* Build configuration list for PBXNativeTarget "Baytradr" */;
+			buildPhases = (
+				63F8A18F1CA457E800D48581 /* Sources */,
+				63F8A1901CA457E800D48581 /* Frameworks */,
+				63F8A1911CA457E800D48581 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Baytradr;
+			productName = libBaytradr;
+			productReference = 63F8A1931CA457E800D48581 /* libBaytradr.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63F8A1891CA4579900D48581 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					63F8A1921CA457E800D48581 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 63F8A18C1CA4579900D48581 /* Build configuration list for PBXProject "baytradr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63F8A1881CA4579900D48581;
+			productRefGroup = 63F8A1941CA457E800D48581 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63F8A1921CA457E800D48581 /* Baytradr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63F8A18F1CA457E800D48581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F8A1A01CA4592200D48581 /* BTTransaction.c in Sources */,
+				63F8A1A71CA461B800D48581 /* BTPrivate.c in Sources */,
+				63F8A1A31CA45A1F00D48581 /* BTUtilities.c in Sources */,
+				63F8A19C1CA4586700D48581 /* BTSession.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63F8A18D1CA4579900D48581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREFIX_HEADER = private/BTPrivate.h;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+			};
+			name = Debug;
+		};
+		63F8A18E1CA4579900D48581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREFIX_HEADER = private/BTPrivate.h;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+			};
+			name = Release;
+		};
+		63F8A1961CA457E800D48581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		63F8A1971CA457E800D48581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63F8A18C1CA4579900D48581 /* Build configuration list for PBXProject "baytradr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F8A18D1CA4579900D48581 /* Debug */,
+				63F8A18E1CA4579900D48581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F8A1951CA457E800D48581 /* Build configuration list for PBXNativeTarget "Baytradr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F8A1961CA457E800D48581 /* Debug */,
+				63F8A1971CA457E800D48581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63F8A1891CA4579900D48581 /* Project object */;
+}
